@@ -1,5 +1,7 @@
 # In Character
 
+A WoW addon for in-character immersive connections rather than OOC social utility.
+
 In-character RP discovery for World of Warcraft Retail — ambient beacons and notice boards that complement (never replace) Total RP 3.
 
 **Version:** 0.1.0 (MVP+)  
@@ -9,13 +11,18 @@ In-character RP discovery for World of Warcraft Retail — ambient beacons and n
 
 ## Install (development)
 
-1. Clone this repo to `C:\Users\kvebe\InCharacter`
+1. Clone this repo:
+
+```powershell
+git clone https://github.com/khallammarellus-rgb/In-Character.git
+```
+
 2. Create a junction into your WoW AddOns folder (run PowerShell **as Administrator**):
 
 ```powershell
 New-Item -ItemType Junction `
   -Path "C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\InCharacter" `
-  -Target "C:\Users\kvebe\InCharacter\InCharacter"
+  -Target "C:\path\to\In-Character\InCharacter"
 ```
 
 3. Enable **In Character** on the character select AddOns screen
@@ -40,10 +47,6 @@ New-Item -ItemType Junction `
 ## GitHub
 
 https://github.com/khallammarellus-rgb/In-Character
-
-```powershell
-git clone https://github.com/khallammarellus-rgb/In-Character.git
-```
 
 ---
 
